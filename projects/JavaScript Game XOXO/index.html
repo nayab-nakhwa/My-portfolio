@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tic.css">
+    <script src="tic.js"></script>
+</head>
+<body>
+    <div id="main">
+       <div id="content">
+        <h1>TIC TAC TOE</h1> <br>
+        <!-- Game instuctions -->
+        <p id="ins">Tap on any box to start the Game.<br><br>
+        First Player starts as <b>Player X</b><br> & <br>Second Player as <b>Player O</b></p> <br><br>
+
+        <!-- 3*3 Grid of boxes -->
+
+        <input type="text" name="b1" id="b1" onclick="myFunc3(); myFunc()" readonly>
+
+        <input type="text" name="b2" id="b2" onclick="myFunc4(); myFunc()" readonly>
+
+        <input type="text" name="b3" id="b3" onclick="myFunc5(); myFunc()" readonly>
+        <br><br>
+
+        <input type="text" name="b4" id="b4"
+        onclick="myFunc6(); myFunc()" readonly>
+
+        <input type="text" name="b5" id="b5"
+        onclick="myFunc7(); myFunc()" readonly>
+
+        <input type="text" name="b6" id="b6"
+        onclick="myFunc8(); myFunc()" readonly>
+        <br><br>
+
+        <input type="text" name="b7" id="b7"
+        onclick="myFunc9(); myFunc()" readonly>
+
+        <input type="text" name="b8" id="b8"
+        onclick="myFunc10(); myFunc()" readonly>
+
+        <input type="text" name="b9" id="b9"
+        onclick="myFunc11(); myFunc()" readonly>
+
+        <!-- grid end -->
+
+        <br><br><br>
+        <!-- button to reset game -->
+        <button id="btn" onclick="myFunc2()">RESET</button>
+
+        <br><br>
+        <!-- space to show player turn -->
+        <p id="print"></p>
+       </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayab's -- Devoloper Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+<script src="https://codepen.io/grayghostvisuals/pen/a08e0d79c150ff5030f9b6afaa137749.js"></script>
+</head>
+<body onload="cngimg1()">
+
+    <!-- Header---Navbar -->
+    <header  id="home">
+        <nav>
+            <div class="logo"><a href="#home">Nayab's Porftfolio</a></div>
+            <div class="navitems">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#myprojects">My Projects</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="circle"></div>
+    <div class="cursor"></div>
+
+
+
+
+    <!-- Section one--Home -->
+   <section  class="sect1">
+    <div class="left">
+        Hi, I'm <span class="purple">Nayab</span>
+
+        <div>and I'm a passionate</div>
+        <div><span id="element">
+            Web Developer</span></div>
+            <button class="purple">Hire Me</button>
+            <a target="_blank" href="Nayab Nakhwa-CV.pdf"><button class="purple">Download CV</button></a>
+    </div>
+    <div class="right"><img src="images/bg.png" alt="Coder"></div>
+   </section> 
+   <hr>
+
+
+
+
+   <!-- Section Two--Education-->
+   <section id="edu"  class="sect2">
+       <h1>Education</h1>
+    <div id="sect2mdiv">
+        <div class="sect2item"><div><h3>Hsc in General Science</h3> <br> <p>Gogte Jogalekar College, Ratnagiri <br> July 2018 - April 2020</p></div></div>
+        <div class="sect2item"><div><h3>Bsc in Computer Science</h3> <br> <p>Gogte Jogalekar College, Ratnagiri <br> July 2020 - July 2023
+            secured a score of 8.51 cgpa.</p></div></div>
+        <div class="sect2item"><div><h3>Full Stack Web Development</h3> <br> <p>Seven Mentor pvt ltd, Pune <br>June 2023 Present</p></div></div>
+    </div>
+   </section>
+  
+
+
+
+   <!-- Section three Skills -->
+
+   <section id="skills" class="sect3">
+    <h1 id="skills">Skills</h1>
+    <div id="sect3mdiv">
+        <div class="sect3item" id="html"><img class="lgs" src="images/html5.png" alt=""><h3>HTML</h3>
+            <div class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        </div>
+        <hr class="line">
+
+        <div class="sect3item" id="css"><img class="lgs" src="images/css.png" alt=""><h3>CSS</h3>
+            <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <hr class="line">
+
+        <div class="sect3item" id="js"><img class="lgs" src="images/js.png" alt=""><h3>JAVASCRIPT</h3>
+            <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <hr class="line">
+
+        <div class="sect3item" id="sql"><img class="lgs" src="images/sql.png" alt=""><h3>SQl</h3>
+            <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <hr class="line">
+
+        <div class="sect3item" id="adb"><img class="lgs" src="images/adb.png" alt=""><h3>ADOBE PHOTOSHOP</h3>
+            <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+        <hr class="line">
+
+        <div class="sect3item" id="wp"><img class="lgs" src="images/wp.png" alt=""><h3>WORDPRESS</h3>
+            <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+        </div>
+
+    </div>
+   </section>
+
+
+
+   <!-- section four about me  -->
+
+   <section id="aboutme" class="sect4">
+       <h1 id="abt">About me</h1>
+    <div id="sect4mdiv">
+        <div id="divleft">
+            <p>
+                <ul>
+                <li>Design and develop user interfaces using HTML, CSS, and JavaScript.</li> 
+
+                <li>Skilled in creating web graphics, banners, and logos using Adobe Photoshop.</li>
+              
+                <li>Proficient in creating responsive designs for multiple devices.</li>
+                
+                <li>Interested in Swimming, Gym & Singing </li>
+                
+                <li>Team leadership skills with designers, developers, and other team members to coordinate website development and implementation.</li>
+            </ul>
+                </p>
+        </div>
+        <div id="divright">
+            <img id="mypic" src="images/mypic.jpg" alt="My picture">
+        </div>
+    </div>
+   </section>
+
+
+
+
+   <!-- section five my projects -->
+   <section id="myprojects" class="sect5">
+    <h1 id="myproh1">My Projects</h1>
+    <div id="sect5mdiv">
+        <div class="sect5items"><a href="projects/Home Project/index.html" target="_blank"><img src="images/myproj1.jpeg" alt="myProject"></a></div>
+        <div class="sect5items"><a href="projects/calci/index.html" target="_blank"><img src="images/myproj2.jpeg" alt="myProject"></a></div>
+        <div class="sect5items"><a href="projects/JavaScript Game XOXO/index.html" target="_blank"><img src="images/tictac.png" alt="myProject"></a></div>
+    </div>
+   </section>
+
+
+
+   <!-- section six contact me -->
+   <div class="container">
+    <section id="contactme" class="section6">
+        <div id="sect6">
+          <h1><span id="element">Lets Talk?</span></h1>
+          <form action="#">
+            <input type="text" onfocus="disp()" placeholder="Name"><br>
+            <input type="text" placeholder="Message"><br>
+            <input type="text" placeholder="Phone"><br>
+            <input type="email" placeholder="Email"><br>
+            <button id="snd" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Javascript typed animation -->
+   
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', '&amp; a Web Desinger.'],
+      typeSpeed: 60,
+      loop:Infinity
+    });
+
+
+
+// cursor moving animation
+    var $circle = $('.circle');
+
+function moveCircle(e) {
+  TweenLite.to($circle, 0.3, {
+    css: {
+      left: e.pageX,
+      top: e.pageY
+    }
+  });
+}
+
+$(window).on('mousemove', moveCircle);
+    
+
+
+var $cursor = $('.cursor');
+
+function moveCursor(e) {
+  $cursor.addClass('is-moving');
+  
+  TweenLite.to($cursor, 0.23, {
+    left: e.pageX,
+    top: e.pageY,
+    ease: Power4.easOut
+  });
+  
+  clearTimeout(timer);
+
+   var timer = setTimeout(function() {
+       $cursor.removeClass('is-moving');
+   }, 300);
+}
+
+$(window).on('mousemove', moveCursor);
+
+
+
+function crsrnone(){
+    document.querySelector(".cursor").style.display="none"
+    document.querySelector(".circle").style.display="none"
+}
+
+function crsrdisp(){
+    document.querySelector(".cursor").style.display=""
+    document.querySelector(".circle").style.display=" "
+}
+  </script>
+

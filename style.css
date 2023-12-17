@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(0, 0, 38);
+    min-height: 100vh;
+    color: white;
+    /* mix-blend-mode: exclusion; */
+    cursor: none;    
+}
+
+
+/* Custom scrollbar */
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(95, 113, 168, 0.368);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 44, 67);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(114, 104, 251);  /* creates padding around scroll thumb */
+  }
+
+
+
+
+/* Navbar Styling */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(10 10 55);
+    z-index: -122;
+}
+
+nav:hover{
+    cursor: pointer;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+nav a:hover{
+    color: rgb(171, 85, 251);
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 5px plum;
+    padding: 5px;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 0px 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(171, 85, 251);
+    cursor: pointer;
+    font-size: 1.24rem;
+    transition: 200ms ease;
+}
+
+
+
+
+
+/* Section one styling */
+
+.sect1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.sect1 > div{
+    width: 40vw;
+}
+
+.left{
+    font-size: 3rem;
+
+}
+
+.right img{
+    width: 80%;
+    position: relative;
+    z-index: -25;
+   
+}
+
+.purple{
+    color: rgb(171, 85, 251);
+    
+}
+
+#element{
+    color: rgb(171, 85, 251);
+}
+
+button{
+    border: 1px solid rgb(171, 85, 251);
+    border-radius: 30px;
+    box-shadow: 0 0 10px plum;
+    background-color: transparent;
+    color: rgb(186, 139, 229);
+    font-size: 20px;
+    height: 50px;
+    width: 160px;
+    margin: 30px 5px;
+    transition: all ease 0.5s;
+}
+
+
+button:hover{
+    background-color: rgb(171, 85, 251);
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    scale: 1.09;
+}
+hr{
+    border: 0px;
+    height: 1px;
+    margin: 0px 70px;
+    background-color: rgb(171, 85, 251); 
+}
+
+
+
+/* Section two styling */
+
+#sect2mdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 90vw;
+    /* border: 2px solid white; */
+    margin: auto;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.sect2 h1{
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 110px;
+}
+.sect2item{
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: linear-gradient(rgb(55, 18, 104));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 25px plum;
+    transition: all ease 0.5s;
+}
+
+.sect2item:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.sect2item div{
+    margin-top: 160px;
+}
+
+.sect2item p{
+    color: gray;
+}
+
+
+
+
+/* section three styling */
+.sect3 h1{
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+#sect3mdiv{
+    height: 660px;
+    /* border: 2px solid white; */
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 20vw;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sect3item{
+    height: 120px;
+    width: 64vw;
+    border-bottom: 2px solid rgb(171, 85, 251);
+    padding: 21px 0px;
+}
+#wp{
+    border: none;
+}
+
+.sect3item .lgs{
+    height: 80px;
+    width: 80px;
+}
+
+.sect3item h3{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    text-align: center;
+    margin: -63px 95px;
+    margin-bottom: -79px;
+}
+
+.stars{
+    margin: 43px 290px;
+}
+
+.sect3item span{
+    font-size: 40px;
+    padding: 0px 10px;
+}
+
+.sect3mdiv .line{
+    border: 0px;
+    height: 1px;
+    margin: 0px 70px;
+}
+
+
+
+
+/* section four styling */
+.sect4  #abt{
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+#sect4mdiv{
+    height: 600px;
+    width: 80vw;
+    border: 2px solid white;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px plum;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+#sect4mdiv #divleft{
+    height: 500px;
+    width: 700px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sect4mdiv #divright{
+    height: 500px;
+    width: 500px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sect4mdiv #divright img{
+    height: 498px;
+    width: 340px;
+    z-index: -22;
+    border-radius: 20px;
+    border: 2px solid plum;
+}
+
+#sect4mdiv #divleft ul {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 30px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* section 5 styling */
+
+.sect5 #myproh1{
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+#sect5mdiv{
+    height: 600px;
+    width: 80vw;
+    /* border: 2px solid white; */
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px plum;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.sect5items{
+    height: 400px;
+    width: 400px;
+    border:  2px solid white;
+    
+
+}
+
+.sect5items img{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    transition: all ease 0.5s;
+}
+
+.sect5items img:hover{
+    scale: 1.08;
+    cursor: pointer;
+}
+
+
+/* ///section 6 styling */
+
+.section6{
+    height: 800px;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #sect6{
+    height: 759px;
+    width: 935px;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #sect6 h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'kantumruy pro',sans-serif;
+  }
+  
+  #sect6 form input{
+    color: black;
+    font-size: 40px;
+    font-family: 'kantumruy pro',sans-serif;
+    font-weight: 800;
+    height: 60px;
+    width: 650px;
+    border: none;
+    padding: 8px 0px;
+    margin-top: 70px;
+    border-bottom: 1px solid rgb(233, 210, 241);
+    background-color: transparent;
+  }
+
+ 
+  
+  #sect6 form #snd {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: none;
+    width: 142px;
+    height: 55px;
+    border-radius: 112px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  
+  #sect6 form #snd:hover{
+    background-color:rgb(171, 85, 251);
+    color: white;
+    border: white;
+    scale: 1.02;
+    text-decoration: none;
+    transition-duration: 1s;
+    cursor: pointer;
+    transition-timing-function: ease;
+  }
+
+  #sect6 form #snd:hover .circle{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////// Cursor Animations /////////* */
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    filter: blur(80px);
+    z-index: -1;
+    margin: -50px 0 0 -50px;
+    background: plum;
+    border-radius: 80%;
+    backface-visibility: hidden;
+  }
+
+   .cursor {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    margin: -24px 0 0 -24px;
+    border: 3px solid rgb(171, 85, 251);
+    border-radius: 100px;
+    backface-visibility: hidden;
+    transition: transform 0.3s ease-out;
+  
+    &.is-moving {
+      transform: scale(0.7);
+    }
+  }
+

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+#main{
+    background-color: rgb(217, 229, 240);
+    height: 620px;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 75px;
+    position: relative;
+}
+
+#content{
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+/* heading */
+h1{
+    color: rgb(255, 51, 0);
+    font-size: 45px;
+}
+
+/* game instructions text*/
+#ins{
+    color: dodgerblue;
+    font-size: 17px;
+}
+
+/* 3*3 grid */
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    width: 80px;
+    height: 62px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* reset button */
+#btn{
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* player turn space */
+
+#print{
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+
+
+
+
